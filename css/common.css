@@ -175,3 +175,37 @@ h1 {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
+/* task-5 */
+.widget {
+  padding: 100px 88px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  background: #fff;
+}
+
+p {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+.change-color {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
