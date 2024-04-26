@@ -26,13 +26,19 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
+
 gallery.style.display = "flex";
+gallery.style.justifyContent = "center";
 gallery.style.flexWrap = "wrap";
+gallery.style.gap = "48px 24px";
 const galleryItems = images
-  .map(
-    (image) =>
-      `<li><img src="${image.url}" alt="${image.alt}" width="300"></li>`
-  )
+  .map((image) => `<li><img src="${image.url}" alt="${image.alt}"></li>`)
   .join("");
 
 gallery.insertAdjacentHTML("beforeend", galleryItems);
+const galleryImg = document.querySelectorAll(".gallery img");
+galleryImg.forEach((galleryItem) => {
+  galleryItem.style.objectFit = "cover";
+  galleryItem.style.maxWidth = "360px";
+  galleryItem.style.height = "300px";
+});
