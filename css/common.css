@@ -51,6 +51,8 @@ img {
   height: auto;
 }
 
+/* task 1 */
+
 #categories {
   padding: 24px;
   max-width: 440px;
@@ -97,4 +99,32 @@ img {
 
 #categories .item li:not(:last-child) {
   margin-bottom: 8px;
+}
+
+/* task 3 */
+#name-input {
+  margin-top: 24px;
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 16px;
+  margin-left: 24px;
+  padding-left: 16px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  margin-left: 24px;
+  color: #2e2f42;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
 }
