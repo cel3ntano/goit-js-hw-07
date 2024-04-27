@@ -43,3 +43,7 @@ const destroyClickHandler = () => {
 //
 create.addEventListener("click", createClickHandler);
 destroy.addEventListener("click", destroyClickHandler);
+
+const destroyHandler = () => {
+  destroyBoxes();
+};

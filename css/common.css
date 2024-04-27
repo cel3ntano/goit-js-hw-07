@@ -101,7 +101,15 @@ img {
 
 /* task 2 */
 ul.gallery {
-  padding: 10px;
+  padding: 40px;
+  max-width: 1240px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: #f6f6fe;
+}
+
+ul.gallery img {
+  border-radius: 10px;
 }
 
 /* task 3 */

@@ -31,6 +31,7 @@ gallery.style.display = "flex";
 gallery.style.justifyContent = "center";
 gallery.style.flexWrap = "wrap";
 gallery.style.gap = "48px 24px";
+
 const galleryItems = images
   .map((image) => `<li><img src="${image.url}" alt="${image.alt}"></li>`)
   .join("");
